@@ -18,5 +18,12 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--accent);
+  background-image: url(../assets/bg-image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position-y: -1500px;
+  background-position-x: center;
+  background-attachment: fixed;
 }
