@@ -16,9 +16,11 @@
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--primary);
   width: 20rem;
   max-width: 100%;
+  background-color: var(--primary);
+  color: var(--text);
 }
 
 .new-expense__actions {
